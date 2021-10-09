@@ -12,11 +12,11 @@ public class TextChanger : MonoBehaviour
     [SerializeField]
     public List<string> textMain = new List<string>();
 
-    
-    public TextMeshProUGUI mainText;
-    public TextMeshProUGUI introduction; 
 
-    int indexL = 0, indexR = 0, indexM = 0; 
+    public TextMeshProUGUI mainText;
+    public TextMeshProUGUI introduction;
+
+    int indexL = 0, indexR = 0, indexM = 0;
 
     private void Start()
     {
