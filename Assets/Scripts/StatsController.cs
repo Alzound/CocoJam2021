@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class StatsController : MonoBehaviour
 {
-    private bool[] canPress = new bool[6];
+    public StatStorage storage;
     private int availablePoints, bravePoints, nervePoints, luckPoints;
     private List<int> nums = new List<int>();
     public List<Button> arrows = new List<Button>();
@@ -114,7 +114,12 @@ public class StatsController : MonoBehaviour
             UpdateValues();
         }
     }
-
+    public void SaveStats()
+    {
+        storage.brvPoints = bravePoints;
+        storage.nrvPoints = nervePoints;
+        storage.lckPoints = luckPoints;
+    }
     public void NextScene()
     {
         SceneManager.LoadScene(1);
