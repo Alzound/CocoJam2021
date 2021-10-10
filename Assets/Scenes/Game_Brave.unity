@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 34148910}
   - component: {fileID: 34148912}
   - component: {fileID: 34148911}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Background Subtitles (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 249510471}
   - component: {fileID: 249510473}
   - component: {fileID: 249510472}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 282680554}
   - component: {fileID: 282680553}
   - component: {fileID: 282680552}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Right Button  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 468329758}
   - component: {fileID: 468329760}
   - component: {fileID: 468329759}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 552666179}
   - component: {fileID: 552666178}
   - component: {fileID: 552666182}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,8 +674,8 @@ Canvas:
   m_GameObject: {fileID: 552666177}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 2023904292}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 669599935}
   - component: {fileID: 669599938}
   - component: {fileID: 669599937}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Comedor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 769524374}
   - component: {fileID: 769524376}
   - component: {fileID: 769524375}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Cocina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   - component: {fileID: 1394113009}
   - component: {fileID: 1394113008}
   - component: {fileID: 1394113007}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Left Button (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 1425176840}
   - component: {fileID: 1425176842}
   - component: {fileID: 1425176841}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Sala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 1628007140}
   - component: {fileID: 1628007142}
   - component: {fileID: 1628007141}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: 'Subtitles '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1794426952}
   - component: {fileID: 1794426954}
   - component: {fileID: 1794426953}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Subtitles Narrator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 2023904291}
   - component: {fileID: 2023904295}
   - component: {fileID: 2023904294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1507,8 +1507,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 523c02bfd61b2c2409623f6cf06ad296, type: 2}
-  isGlobal: 0
+  sharedProfile: {fileID: 11400000, guid: 055105fa61086784a955e9ed29745cc1, type: 2}
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 2023904293}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
