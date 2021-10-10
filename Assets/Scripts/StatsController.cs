@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class StatsController : MonoBehaviour
 {
@@ -35,7 +36,11 @@ public class StatsController : MonoBehaviour
         arrows[5].onClick.AddListener(LessLck); // Less
 
         UpdateValues();
+
+
     }
+
+
     private void UpdateValues()
     {
         for (int i = 0; i < values.Count; i++)
@@ -108,5 +113,10 @@ public class StatsController : MonoBehaviour
             nums[3] = luckPoints;
             UpdateValues();
         }
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(1);
     }
 }
