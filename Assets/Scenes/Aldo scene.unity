@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 147708830}
   - component: {fileID: 147708832}
   - component: {fileID: 147708831}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Subtitles Narrator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 165604639}
   - component: {fileID: 165604638}
   - component: {fileID: 165604637}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: 'Right Button '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 388224220}
   - component: {fileID: 388224222}
   - component: {fileID: 388224221}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Background Subtitles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +546,8 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
-  m_Layer: 0
+  - component: {fileID: 519420034}
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -576,7 +577,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 519420032}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 72
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 1
   antialiasingMode: 0
@@ -630,7 +631,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -690,11 +691,107 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 523c02bfd61b2c2409623f6cf06ad296, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 055105fa61086784a955e9ed29745cc1, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!82 &519420034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5b75387c924f8a4499665ccd9577e094, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &535452506
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,7 +803,7 @@ GameObject:
   - component: {fileID: 535452507}
   - component: {fileID: 535452509}
   - component: {fileID: 535452508}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Image Background (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +878,7 @@ GameObject:
   - component: {fileID: 549367900}
   - component: {fileID: 549367902}
   - component: {fileID: 549367901}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Introduction (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +1015,7 @@ GameObject:
   - component: {fileID: 565029799}
   - component: {fileID: 565029801}
   - component: {fileID: 565029800}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1151,7 @@ GameObject:
   - component: {fileID: 913520901}
   - component: {fileID: 913520903}
   - component: {fileID: 913520902}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1132,7 +1229,7 @@ GameObject:
   - component: {fileID: 925957736}
   - component: {fileID: 925957738}
   - component: {fileID: 925957737}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Introduction (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1365,7 @@ GameObject:
   - component: {fileID: 1086990917}
   - component: {fileID: 1086990916}
   - component: {fileID: 1086990915}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Introduction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,7 +1503,7 @@ GameObject:
   - component: {fileID: 1121894978}
   - component: {fileID: 1121894977}
   - component: {fileID: 1121894981}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1462,8 +1559,8 @@ Canvas:
   m_GameObject: {fileID: 1121894976}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1531,7 +1628,7 @@ GameObject:
   - component: {fileID: 1168759535}
   - component: {fileID: 1168759534}
   - component: {fileID: 1168759533}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1819,7 @@ GameObject:
   - component: {fileID: 1432920812}
   - component: {fileID: 1432920811}
   - component: {fileID: 1432920810}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Left Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1942,7 +2039,7 @@ GameObject:
   - component: {fileID: 1753258097}
   - component: {fileID: 1753258099}
   - component: {fileID: 1753258098}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,7 +2175,7 @@ GameObject:
   - component: {fileID: 1900306278}
   - component: {fileID: 1900306280}
   - component: {fileID: 1900306279}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: 'Subtitles '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2212,7 +2309,7 @@ GameObject:
   - component: {fileID: 2021406636}
   - component: {fileID: 2021406638}
   - component: {fileID: 2021406637}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Image Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
